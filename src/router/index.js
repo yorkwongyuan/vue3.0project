@@ -14,7 +14,6 @@ routerContext.keys().forEach(route => {
     routes = [...routes,...(routerModule.default || routerModule)];
 
 });
-// process.stdout.write("res")
 
 
 export default new Router({
